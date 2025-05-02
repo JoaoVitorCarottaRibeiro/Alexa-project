@@ -104,7 +104,7 @@ def commands():
                 elif "enviar" in texto:
                     msg = texto.replace("enviar", "", 1)
                     speak("Enviando " + msg)
-                    pywhatkit.sendwhatmsg_instantly("+5511977779334", msg)
+                    pywhatkit.sendwhatmsg_instantly("+5511976715945", msg)
                 elif "tocar" in texto:
                     musica = texto.replace("tocar", "")
                     speak("Tocando " + musica)
